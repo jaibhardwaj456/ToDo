@@ -11,10 +11,12 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-const mongoLink = 'mongodb+srv://toDoList:OCWmh9lI8xh3WweF@cluster0.mti9kp7.mongodb.net/?retryWrites=true&w=majority'
+const mongoLink = 'mongodb+srv://jaibhardwaj456:xzau4K1PMgftI8AV@cluster0.exlmhe0.mongodb.net/?retryWrites=true&w=majority/todolistDB'
 mongoose.connect(mongoLink);
 
-// OCWmh9lI8xh3WweF
+// 
+//
+//xzau4K1PMgftI8AV
 
 const itemSchema = {
   name:String
